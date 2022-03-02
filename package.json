@@ -40,6 +40,7 @@
     "gatsby-plugin-postcss": "^5.9.0",
     "gatsby-source-microcms": "^2.0.0",
     "postcss": "^8.4.7",
+    "react-sortable-pane": "^1.1.0",
     "tailwindcss": "^3.0.23",
     "typescript": "^4.5.5"
   }
