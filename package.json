@@ -21,15 +21,13 @@
     "gatsby-plugin-image": "^2.8.2",
     "gatsby-plugin-manifest": "^4.8.2",
     "gatsby-plugin-react-helmet": "^5.8.0",
-    "gatsby-plugin-sass": "^5.8.0",
     "gatsby-plugin-sharp": "^4.8.2",
     "gatsby-plugin-sitemap": "^5.8.0",
     "gatsby-source-filesystem": "^4.8.2",
     "gatsby-transformer-sharp": "^4.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "sass": "^1.49.9"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^2.6.2",
@@ -38,7 +36,11 @@
     "@types/node": "^17.0.14",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "autoprefixer": "^10.4.2",
+    "gatsby-plugin-postcss": "^5.9.0",
     "gatsby-source-microcms": "^2.0.0",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23",
     "typescript": "^4.5.5"
   }
 }

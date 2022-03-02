@@ -7,11 +7,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-      title: ``,
+    title: ``,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
-    "gatsby-plugin-sass",
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image", 
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
@@ -39,7 +39,7 @@ module.exports = {
       serviceId: process.env.SERVICE_ID,
       apis: [
         {
-          endpoint: "listgatsby-config.js",
+          endpoint: "list",
         },
       ],
     },
