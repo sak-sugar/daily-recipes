@@ -12,10 +12,10 @@ type Props = {
 // list
 const IndexPage: React.FC<Props> = ({ data }) => (
   <>
-    <h1 className="w-full md:w-auto m-8 text-3xl font-bold">
+    <h1 className="md:w-auto m-8 text-3xl font-bold">
       Daily Recipes
     </h1>
-    <ul className="w-full md:w-auto m-8">
+    <ul className="md:w-auto m-8">
       {data.allMicrocmsList.edges.map(({ node }) => (
         <li
           key={node.id}
@@ -27,7 +27,7 @@ const IndexPage: React.FC<Props> = ({ data }) => (
             <h2 className="title text-2xl font-bold mb-2">
               {node.title}
             </h2>
-            <span className="block absolute top-4 right-4">
+            <span className="block">
               味どうらく：{String(node.special_ajidoraku)}
             </span>
             <div className="process py-4" dangerouslySetInnerHTML={{ __html: node.process }} />
